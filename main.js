@@ -32,6 +32,10 @@ $(document).on('ready', function() {
 		})
 	})
 
+	$.fn.editable.defaults.mode = 'inline';
 
+	$("#name-x").editable();
+	$("#email-x").editable();
+	$("#description-x").editable();
 
 });
