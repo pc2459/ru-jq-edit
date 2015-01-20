@@ -1,0 +1,23 @@
+body{
+	padding: 20px;
+}
+
+.label{
+	font-weight: 700;
+}
+
+.textbox{
+	padding: 5px;
+
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.textbox-short{
+	width: 200px;
+
+}
+
+.textbox-long{
+	width: 400px;
+}
