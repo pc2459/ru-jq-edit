@@ -24,7 +24,7 @@ $(document).on('ready', function() {
 			console.log("Blurred");
 
 			clicked.text(input.val());
-			input.hide();
+			input.remove();
 			
 			console.log($(this).parent());
 			
